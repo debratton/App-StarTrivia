@@ -11,4 +11,7 @@ import UIKit
 let BLACK_BG = UIColor.black.withAlphaComponent(0.6).cgColor
 let BLACK_BG_RADIUS: CGFloat = 10
 let URL_BASE = "https://swapi.co/api/"
-let PERSON_URL = URL_BASE + "people/1/"
+//Hard Code Luke
+//let PERSON_URL = URL_BASE + "people/1/"
+let PERSON_URL = URL_BASE + "people/"
+typealias PersonResponseCompletion = (Person?) -> Void
