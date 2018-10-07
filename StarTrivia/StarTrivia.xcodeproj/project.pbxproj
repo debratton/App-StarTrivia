@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90A8D28121693E350034F4CB /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A8D28021693E350034F4CB /* PersonApi.swift */; };
+		90A8D283216945390034F4CB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A8D282216945390034F4CB /* Person.swift */; };
 		90D242072166AF080054436E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D242062166AF080054436E /* AppDelegate.swift */; };
 		90D242092166AF080054436E /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D242082166AF080054436E /* SelectPersonVC.swift */; };
 		90D2420C2166AF080054436E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D2420A2166AF080054436E /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90A8D28021693E350034F4CB /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		90A8D282216945390034F4CB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		90D242032166AF080054436E /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D242062166AF080054436E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90D242082166AF080054436E /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90A8D27F21693DEF0034F4CB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90A8D28021693E350034F4CB /* PersonApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		90D241FA2166AF080054436E = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +82,7 @@
 				90D242062166AF080054436E /* AppDelegate.swift */,
 				90D242082166AF080054436E /* SelectPersonVC.swift */,
 				90D242252166C5560054436E /* Utils */,
+				90A8D27F21693DEF0034F4CB /* Services */,
 				90D2421F2166B4460054436E /* Resources */,
 				90D2420A2166AF080054436E /* Main.storyboard */,
 				90D2420D2166AF0A0054436E /* Assets.xcassets */,
@@ -100,6 +113,7 @@
 		90D242202166B4740054436E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				90A8D282216945390034F4CB /* Person.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,9 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A8D283216945390034F4CB /* Person.swift in Sources */,
 				90D242092166AF080054436E /* SelectPersonVC.swift in Sources */,
 				90D242072166AF080054436E /* AppDelegate.swift in Sources */,
 				90D242242166C4C90054436E /* BlackBgView.swift in Sources */,
+				90A8D28121693E350034F4CB /* PersonApi.swift in Sources */,
 				90D242272166C5820054436E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
