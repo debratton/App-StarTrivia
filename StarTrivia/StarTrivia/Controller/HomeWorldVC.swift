@@ -16,8 +16,6 @@ class HomeWorldVC: UIViewController, PersonProtocol {
     @IBOutlet weak var terrainLbl: UILabel!
     @IBOutlet weak var populationLbl: UILabel!
     
-    
-    
     var person: Person!
     var api = HomeWorldApi()
     
